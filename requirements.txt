@@ -4,4 +4,3 @@ numpy
 seaborn
 scikit-learn
 streamlit
-base64
