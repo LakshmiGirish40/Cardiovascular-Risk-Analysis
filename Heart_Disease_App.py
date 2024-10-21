@@ -56,7 +56,7 @@ input_data = {
     'trestbps': [st.slider('Resting Blood Pressure (trestbps)', min_value=80, max_value=200, value=120, step=5, help='Resting blood pressure in mmHg')],
     'chol': [st.slider('Cholesterol (chol)', min_value=120, max_value=400, value=200, step=5, help='Serum cholesterol in mg/dL')],
     'fbs': [st.slider('Fasting Blood Sugar (fbs)', min_value=0, max_value=1, value=0, step=1, help='1 if fasting blood sugar > 120 mg/dL, 0 otherwise')],
-    'restecg': [st.slider('Resting ECG (restecg)', min_value=0, max_value=2, value=0, step=1, help='0: Normal, 1: ST-T wave abnormality, 2: Probable/definite left ventricular hypertrophy')],
+    'restecg': [st.slider('Resting ECG (restecg)', min_value=0, max_value=3, value=0, step=1, help='0: Normal, 1: ST-T wave abnormality, 2: Probable/definite left ventricular hypertrophy')],
     'thalach': [st.slider('Max Heart Rate Achieved (thalach)', min_value=70, max_value=210, value=140, step=5, help='Maximum heart rate achieved')],
     'exang': [st.slider('Exercise Induced Angina (exang)', min_value=0, max_value=1, value=0, step=1, help='1 if exercise-induced angina, 0 otherwise')],
     'oldpeak': [st.slider('ST Depression (oldpeak)', min_value=0.0, max_value=6.0, value=1.0, step=0.1, help='ST depression induced by exercise relative to rest')],
