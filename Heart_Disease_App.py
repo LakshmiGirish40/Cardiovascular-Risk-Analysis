@@ -15,7 +15,7 @@ import pickle
 from sklearn.impute import SimpleImputer  # Import the imputer
 
 # Dummy dataset loading (replace with actual data)
-data = pd.read_csv(r"D:\Data_Science&AI\Spyder\Heart_Disease\heart_disease_dataset.csv")
+data = pd.read_csv(r"heart_disease_dataset.csv")
 
 # Separate features and target
 X = data.drop('target', axis=1)
