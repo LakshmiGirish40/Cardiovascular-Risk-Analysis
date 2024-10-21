@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
-dataset = pd.read_csv(r"D:\Data_Science&AI\Spyder\Heart_Disease\heart_disease_dataset.csv")
+dataset = pd.read_csv(r"heart_disease_dataset.csv")
 df = dataset.copy()
 
 # Define the continuous features
