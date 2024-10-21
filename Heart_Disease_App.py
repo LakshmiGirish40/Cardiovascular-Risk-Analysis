@@ -171,7 +171,7 @@ def set_background(png_file):
     page_bg_img = '''
     <style>
     .stApp {{
-        background: url("data:"D:\Data_Science&AI\Spyder\Heart_Disease\h2.jpg";base64,{image_base64}");
+        background: url("data:"h2.jpg";base64,{image_base64}");
         background-size: cover;
         background-position: center;
         background-repeat: repeat;
