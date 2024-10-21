@@ -55,7 +55,7 @@ input_data = {
     'cp': [st.slider('Chest Pain Type (cp)', min_value=0, max_value=3, value=1, step=1, help='0: Typical angina, 1: Atypical angina, 2: Non-anginal pain, 3: Asymptomatic')],
     'trestbps': [st.slider('Resting Blood Pressure (trestbps)', min_value=80, max_value=200, value=120, step=5, help='Resting blood pressure in mmHg')],
     'chol': [st.slider('Cholesterol (chol)', min_value=120, max_value=400, value=200, step=5, help='Serum cholesterol in mg/dL')],
-    'fbs': [st.slider('Fasting Blood Sugar (fbs)', min_value=0, max_value=1, value=0, step=1, help='1 if fasting blood sugar > 120 mg/dL, 0 otherwise')],
+    'fbs': [st.slider('Fasting Blood Sugar (fbs)', min_value=60, max_value=300, value=0, step=1, help='1 if fasting blood sugar > Normal: Less than 100 mg/dL,Prediabetes: 100 to 125 mg/dL, 0 otherwise')],
     'restecg': [st.slider('Resting ECG (restecg)', min_value=0, max_value=3, value=0, step=1, help='0: Normal, 1: ST-T wave abnormality, 2: Probable/definite left ventricular hypertrophy')],
     'thalach': [st.slider('Max Heart Rate Achieved (thalach)', min_value=70, max_value=210, value=140, step=5, help='Maximum heart rate achieved')],
     'exang': [st.slider('Exercise Induced Angina (exang)', min_value=0, max_value=1, value=0, step=1, help='1 if exercise-induced angina, 0 otherwise')],
@@ -123,6 +123,9 @@ High levels (typically above 140/90 mmHg) suggest a risk.
 - **HDL (good cholesterol)** below 40 mg/dL
 
 ### Fasting Blood Sugar (fbs)
+- **Normal:** Less than 100 mg/dL
+- **Prediabetes:** 100 to 125 mg/dL
+- **Diabetes:** 126 mg/dL or higher
 Levels above 120 mg/dL may indicate diabetes, which increases risk.
 
 ### Resting ECG (restecg)
