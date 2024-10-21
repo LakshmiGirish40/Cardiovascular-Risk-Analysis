@@ -1,0 +1,7 @@
+ pandas
+matplotlib
+numpy
+seaborn
+scikrt-learn
+streamlit
+base64
