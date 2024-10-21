@@ -2,6 +2,6 @@
 matplotlib
 numpy
 seaborn
-scikrt-learn
+sciket-learn
 streamlit
 base64
